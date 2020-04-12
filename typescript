@@ -1,0 +1,433 @@
+Script started on 2020-04-12 13:42:20-0700
+daviesg3@cf405-24:~/csci241$ git status
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+daviesg3@cf405-24:~/csci241$ cs[Kcd[K[Kd
+daviesg3@cf405-24:~$ ls
+7	    csci247    Downloads	  final.tar.gz	Lab3  Music	Public			 Templates
+badcode.py  Desktop    eclipse-workspace  Lab		Lab5  Pictures	snap			 typescript
+csci241     Documents  final		  Lab2		Lab6  project	squareFootCalculator.py  Videos
+daviesg3@cf405-24:~$ cd csci 241[1P241
+daviesg3@cf405-24:~/csci241$ ls
+lab-1-grdavies99  typescript
+daviesg3@cf405-24:~/csci241$ lab-1-grdavies99
+lab-1-grdavies99: command not found
+daviesg3@cf405-24:~/csci241$ cd[K[Klab-1-grdavies99clab-1-grdavies99dlab-1-grdavies99 lab-1-grdavies99
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ ls
+build.gradle  settings.gradle  src  writeup.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git commit - [Km wri[K[K[K""a"d"d"e"d" "h"o"b"b"i"e"s"[1P"[1P"[1P"y" "t"o" "w"r"i"t"e"u"p"
+[master 5b3dbaa] added hobby to writeup
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ touch username.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add username.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ nano [K[K[K[K[Kgit commit -m [K[K[K[K[K[K[K[K[K[K[K[K[K[Knano username.txt
+[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;53H(B[0;7m[ Reading File ](B[m[28;59H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                         username.txt                                                   [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[3d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[3dG[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l,[?12l[?25h[?25ld[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lg[?12l[?25h[?25l3[?12l[?25h[?25l,[?12l[?25h[?25lg[?12l[?25h[?25lr[28d[K[3;27H[?12l[?25h[?25ld[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l9[?12l[?25h[?25l9[?12l[?25h[?25l[1;119H[1;111H(B[0;7m        (B[m[28;53H(B[0;7m[ Wrote 1 line ](B[m[3;35H[?12l[?25h[?25l[28d[J[30;120H[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add username.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git commit - [Km" "[Cadded username and [K[K[K[K[K.txtausername.txtnusername.txtdusername.txt username.txteusername.txtdusername.txtiusername.txttusername.txt[1Pusername.txt[1Pusername.txt[1Pusername.txt[1Pusername.txtiusername.txtnusername.txtpusername.txt[Cusername.txttusername.txt username.txtiusername.txtnusername.txtfusername.txtousername.txt username.txtfusername.txtousername.txtrusername.txt username.txt[C[C[C[C[C[C[C[C[C[C[C[C"
+[master ee2048c] added and input info for username.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git help -a
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+available git commands in '/usr/lib/git-core'
+
+  add                       difftool--helper          merge-recursive           rev-parse
+  add--interactive          fast-export               merge-resolve             revert
+  am                        fast-import               merge-subtree             rm
+  annotate                  fetch                     merge-tree                send-pack
+  apply                     fetch-pack                mergetool                 sh-i18n--envsubst
+  archive                   filter-branch             mktag                     shell
+  bisect                    fmt-merge-msg             mktree                    shortlog
+  bisect--helper            for-each-ref              mv                        show
+  blame                     format-patch              name-rev                  show-branch
+  branch                    fsck                      notes                     show-index
+  bundle                    fsck-objects              pack-objects              show-ref
+  cat-file                  gc                        pack-redundant            stage
+  check-attr                get-tar-commit-id         pack-refs                 stash
+  check-ignore              grep                      patch-id                  status
+  check-mailmap             hash-object               prune                     stripspace
+  check-ref-format          help                      prune-packed              submodule
+  checkout                  http-backend              pull                      submodule--helper
+  checkout-index            http-fetch                push                      subtree
+  cherry                    http-push                 quiltimport               symbolic-ref
+  cherry-pick               imap-send                 read-tree                 tag
+  clean                     index-pack                rebase                    unpack-file
+  clone                     init                      rebase--helper            unpack-objects
+  column                    init-db                   receive-pack              update-index
+  commit                    instaweb                  reflog                    update-ref
+  commit-tree               interpret-trailers        remote                    update-server-info
+  config                    log                       remote-ext                upload-archive
+  count-objects             ls-files                  remote-fd                 upload-pack
+  credential                ls-remote                 remote-ftp                var
+  credential-cache          ls-tree                   remote-ftps               verify-commit
+  credential-cache--daemon  mailinfo                  remote-http               verify-pack
+  credential-store          mailsplit                 remote-https              verify-tag
+  daemon                    merge                     remote-testsvn            web--browse
+  describe                  merge-base                repack                    whatchanged
+  diff                      merge-file                replace                   worktree
+  diff-files                merge-index               request-pull              write-tree
+  diff-index                merge-octopus             rerere
+  diff-tree                 merge-one-file            reset
+  difftool                  merge-ours                rev-list
+
+git commands available from elsewhere on your $PATH
+
+  lfs
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git checkout writeup.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ nano writeup.txt
+[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;53H(B[0;7m[ Reading File ](B[m[28;59H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                         writeup.txt                                                    [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[3d[39;49m(B[mname: Garrett Davies[4dHobby: Guitar[A[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lG[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l[4d[?12l[?25h[?25lH[?12l[?25h[?25l[?12l[?25h[?25l[3;21H[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[3;20H [?12l[?25h[?25l [28d[K[3;19H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lJ[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25lf[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25lb[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l[1;119H[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 2 lines ](B[m[3;19H[?12l[?25h[?25l[28d[J[30;120H[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git reset wr[Kriteup.txt
+Unstaged changes after reset:
+M	writeup.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ touch dummyu[K
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ touch dummy.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ ls
+build.gradle  dummy  dummy.txt	settings.gradle  src  username.txt  writeup.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ rm du[K[K[K[K[Kgit rm dummy
+fatal: pathspec 'dummy' did not match any files
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ gid[Kt add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [Kdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add dummy.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git commit -m "added dummy file"
+[master dd9a791] added dummy file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dummy.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git rm dummy.txt
+rm 'dummy.txt'
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add dummy
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git commit -m" "[Cadded re[K[Kfile to rema[K[Kname"
+[master befbad2] added file to rename
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename dummy.txt => dummy (100%)
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ gir[Kt rm dumm[K[K[K[K[K[K[Kmv dummy[K[K[K[K[Kwriteup.txt dummy
+fatal: destination exists, source=writeup.txt, destination=dummy
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git mv wirr[K[K[Kriteup[K[K[K[K[K[K[K[K[K[Krm dummy
+rm 'dummy'
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git mv writeup.txt dummy.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git mv dummy.txt writeup.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git blm[K[Klame writeup.txt
+[?1h=00000000 (Not Committed Yet 2020-04-12 13:56:27 -0700 1) name: Jeff bridges[m
+5b3dbaa2 (Garrett Davies    2020-04-12 13:44:42 -0700 2) Hobby: Guitar  [m
+[K[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ nano writeup.txt
+[?1049h[22;0;0t[1;47r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[45;59H(B[0;7m[ Reading File ](B[m[45;65H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                               writeup.txt                                                          [1;131H(B[m[46d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[46;113H(B[0;7mM-A(B[m Mark Text[47d(B[0;7m^X(B[m Exit[47;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[47;113H(B[0;7mM-6(B[m Copy Text[45d[3d[39;49m(B[mname: Jeff bridges[4dHobby: Guitar[A[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lJ[?12l[?25h[?25le[?12l[?25h[?25lf[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25lb[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l[1;123H(B[0;7mModified(B[m[3;18H [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [45d[K[3;15H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lG[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l[1;131H[1;123H(B[0;7m        (B[m[45;58H(B[0;7m[ Wrote 2 lines ](B[m[3;21H[?12l[?25h[?25l[45d[J[47;132H[?12l[?25h[47;1H[?1049l[23;0;0t[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ 
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git log 
+[?1h=[33mcommit befbad28570e0244ac1e75eb52b46d4055ddd1c8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Garrett Davies <daviesg3@wwu.edu>[m
+Date:   Sun Apr 12 13:53:25 2020 -0700[m
+[m
+    added file to rename[m
+[m
+[33mcommit dd9a7911600ce9f4152856e671e20b1e894694d2[m[m
+Author: Garrett Davies <daviesg3@wwu.edu>[m
+Date:   Sun Apr 12 13:52:12 2020 -0700[m
+[m
+    added dummy file[m
+[m
+[33mcommit ee2048c833ae3216ce79cc49e9f5e8f098b0746c[m[m
+Author: Garrett Davies <daviesg3@wwu.edu>[m
+Date:   Sun Apr 12 13:48:19 2020 -0700[m
+[m
+    added and input info for username.txt[m
+[m
+[33mcommit 5b3dbaa2c2715db5f0e8aff8d7066fb86f568e53[m[m
+Author: Garrett Davies <daviesg3@wwu.edu>[m
+Date:   Sun Apr 12 13:44:42 2020 -0700[m
+[m
+    added hobby to writeup[m
+[m
+[33mcommit 94c0d16793efbb3dcf418f224fc7cdbd67ebde0f[m[m
+Author: Garrett Davies <daviesg3@wwu.edu>[m
+Date:   Sun Apr 12 13:32:47 2020 -0700[m
+[m
+    added part 1 names to writeup[m
+[m
+[33mcommit bda2feeaf60103b416f6190ad45b12db79d9fc5a[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Garrett Davies <daviesg3@wwu.edu>[m
+Date:   Sun Apr 12 13:25:05 2020 -0700[m
+[m
+    added empty writeup[m
+[m
+[33mcommit 080950665343157f2492e051b963c11bb0bda53b[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Sun Apr 12 11:49:03 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit 8be46b4deba0870572d481edc1b27e08011213e0[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Sun Apr 12 11:49:02 2020 -0700[m
+[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[47;1H[K[K:[K[K [K^X^X[K^?^?[K:[K[K:[K[K-[Klog file: [Ktt[Koo[Kpp[K[K[K[K:[K[K-[Klog file: [K:[K[K[K:[K[K-[Klog file: [Kss[K[K:[K[K[?1l>
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ 
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git diff
+[?1h=[K[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git diff writeup.txt
+[?1h=[K[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add writerup.txt[1Pup.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add writeup.txt[1@diff[C[C[C[C[C[C[C[C[C[C[C[C
+[?1h=[K[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ nano writeup.txt
+[?1049h[22;0;0t[1;47r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[45;59H(B[0;7m[ Reading File ](B[m[45;65H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                               writeup.txt                                                          [1;131H(B[m[46d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[46;113H(B[0;7mM-A(B[m Mark Text[47d(B[0;7m^X(B[m Exit[47;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[47;113H(B[0;7mM-6(B[m Copy Text[45d[3d[39;49m(B[mname: Garrett Davies[4dHobby: Guitar[A[?12l[?25h[?25l[45d[J[47;132H[?12l[?25h[47;1H[?1049l[23;0;0t[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git commit -m "making sure my files are still correct"
+[master 8c94cb2] making sure my files are still correct
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 dummy
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git checkout -b question#[K3
+Switched to a new branch 'question3'
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ nano writeup.txt
+[?1049h[22;0;0t[1;47r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[45;59H(B[0;7m[ Reading File ](B[m[45;65H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                               writeup.txt                                                          [1;131H(B[m[46d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[46;113H(B[0;7mM-A(B[m Mark Text[47d(B[0;7m^X(B[m Exit[47;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[47;113H(B[0;7mM-6(B[m Copy Text[45d[3d[39;49m(B[mname: Garrett Davies[4dHobby: Guitar[A[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[1;123H(B[0;7mModified(B[m[5dF[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lB[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25ly[?12l[?25h[?25l-[?12l[?25h[?25ll[?12l[?25h[?25lo[45d[K[5;25H[?12l[?25h[?25lo[?12l[?25h[?25lk[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lg[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1P[?12l[?25h[?25l looking glass[5;23H[?12l[?25h[?25lblooking glass[5;24H[?12l[?25h[?25lylooking glass[5;25H[?12l[?25h[?25l looking glass[5;26H[?12l[?25h[?25l[1;131H[1;123H(B[0;7m        (B[m[45;58H(B[0;7m[ Wrote 3 lines ](B[m[5;26H[?12l[?25h[?25l[45d[J[47;132H[?12l[?25h[47;1H[?1049l[23;0;0t[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add writeup.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git commit -m "question [K3 branch"
+[question3 4712f44] question3 branch
+ 1 file changed, 1 insertion(+)
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git staust[Ktus
+On branch question3
+nothing to commit, working tree clean
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ 
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git checkout [K[K[K[K[K[K[K[K[K[K[K[K[Kgit checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 6 commits.
+  (use "git push" to publish your local commits)
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git push
+Username for 'https://github.com': grdavies99
+Password for 'https://grdavies99@github.com': 
+Counting objects: 14, done.
+Delta compression using up to 8 threads.
+Compressing objects:   9% (1/11)   Compressing objects:  18% (2/11)   Compressing objects:  27% (3/11)   Compressing objects:  36% (4/11)   Compressing objects:  45% (5/11)   Compressing objects:  54% (6/11)   Compressing objects:  63% (7/11)   Compressing objects:  72% (8/11)   Compressing objects:  81% (9/11)   Compressing objects:  90% (10/11)   Compressing objects: 100% (11/11)   Compressing objects: 100% (11/11), done.
+Writing objects:   7% (1/14)   Writing objects:  14% (2/14)   Writing objects:  21% (3/14)   Writing objects:  28% (4/14)   Writing objects:  35% (5/14)   Writing objects:  42% (6/14)   Writing objects:  57% (8/14)   Writing objects:  64% (9/14)   Writing objects:  71% (10/14)   Writing objects:  78% (11/14)   Writing objects:  85% (12/14)   Writing objects:  92% (13/14)   Writing objects: 100% (14/14)   Writing objects: 100% (14/14), 1.34 KiB | 687.00 KiB/s, done.
+Total 14 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-grdavies99
+   bda2fee..8c94cb2  master -> master
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git branch -d question3
+error: The branch 'question3' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D question3'.
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git branch -d question3[1P question3D question3
+Deleted branch question3 (was 4712f44).
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ ls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ cd src/main/java/java[K[K[K[Klab1/hello[K[K[K[K[K[K
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ gradle build
+
+Welcome to Gradle 6.1!
+
+Here are the highlights of this release:
+ - Dependency cache is relocatable
+ - Configurable compilation order between Groovy, Java & Scala
+ - New sample projects in Gradle's documentation
+
+For more details see https://docs.gradle.org/6.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [72ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [171ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [271ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [372ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [471ms][m[39D[1B[1m> Evaluating settings > Compiling /home/daviesg3/csci241/lab-1-grdavies99/settings.gradle into local compilation cache[m[118D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [572ms][m[39D[1B[1m> Evaluating settings[m[0K[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [671ms][m[39D[1B[1m> Evaluating settings > Compiling /home/daviesg3/csci241/lab-1-grdavies99/settings.gradle into local compilation cache > Compiling [m[131D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [772ms][m[39D[1B[1m> Evaluating settings[m[0K[21D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/daviesg3/csci241/lab-1-grdavies99/src/main/java/lab1' is not part of the build defined by settings file '/home/daviesg3/csci241/lab-1-grdavies99/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 2s
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdaviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ gradle build hello.java
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/daviesg3/csci241/lab-1-grdavies99/src/main/java/lab1' is not part of the build defined by settings file '/home/daviesg3/csci241/lab-1-grdavies99/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 405ms
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hdaviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ cd
+daviesg3@cf405-24:~$ cd csci241/lab-1-grdavies99
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ grdale[K[K[K[Kadle build
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [54ms][m[37D[1B[1m> Loading projects[m[18D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [154ms][m[38D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [254ms][m[38D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [354ms][m[38D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [454ms][m[38D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [554ms][m[38D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [654ms][m[40D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [754ms][m[40D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [854ms][m[40D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [954ms][m[0K[36D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [1s][m[0K[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[0K[58D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-parent-26.0-jre.pom[m[86D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[0K[58D[1B
+
+
+
+[5A[1m> :compileJava > Resolve dependencies of :compileClasspath > checker-qual-2.5.2.pom[m[83D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > error_prone_annotations-2.1.3.pom[m[94D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > jsr305-3.0.2.pom[m[77D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > animal-sniffer-annotations-1.14.pom[m[96D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > j2objc-annotations-1.1.pom[m[87D[1B[5A> IDLE[0K[6D[1B> IDLE[0K[6D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > oss-parent-7.pom[m[77D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B[6A[1m<[0;1m-------------> 0% EXECUTING [2s][m[33D[3B[1m> :compileJava > Resolve dependencies of :compileClasspath > codehaus-parent-4.pom[m[82D[3B[4A[1m> :compileJava > Resolve files of :compileClasspath > error_prone_annotations-2.1.3.jar[m[87D[1B[1m> :compileJava > Resolve files of :compileClasspath > guava-26.0-jre.jar[m[0K[72D[1B[1m> :compileJava > Resolve files of :compileClasspath > jsr305-3.0.2.jar[m[70D[1B[1m> :compileJava > Resolve files of :compileClasspath > j2objc-annotations-1.1.jar[m[80D[1B[5A[1m> :compileJava > Resolve files of :compileClasspath > checker-qual-2.5.2.jar > 104 KB/188 KB downloaded[m[103D[1B> IDLE[0K[6D[1B[1m> :compileJava > Resolve files of :compileClasspath > guava-26.0-jre.jar > 254 KB/2.61 MB downloaded[m[100D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B[5A> IDLE[0K[6D[2B[1m> :compileJava > Resolve files of :compileClasspath[m[0K[51D[3B[3A[1m> :compileJava[m[0K[14D[3B[6A[1m<[0;1m-------------> 0% EXECUTING [3s][m[33D[6B[6A[1m<[0;1m-------------> 0% EXECUTING [4s][m[33D[6B[6A[1m<[0;1m-------------> 0% EXECUTING [5s][m[33D[6B[6A[1m<[0;1m-------------> 0% EXECUTING [6s][m[33D[6B[6A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [6s][m[34D[3B[1m> :startScripts[m[15D[3B[6A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [6s][m[34D[3B[1m> :distZip[m[0K[10D[3B[6A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [7s][m[34D[6B[6A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 7s
+5 actionable tasks: 5 executed
+[3B[0K
+[0K
+[0K
+[6A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B> IDLE[6D[1B[1m> :distZip[m[10D[1B> IDLE[6D[1B> IDLE[6D[1B[6A[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[5A[0m[?12l[?25hdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ gradle run
+
+[1A[1m<[0;1m-------------> 0% EXECUTING [57ms][m[35D[1B[1A[0K
+[1m> Task :run[m
+Hello, world!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 498ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ cd src/main/java/lab1/
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ nano hello.java
+[?1049h[22;0;0t[1;47r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[45;61H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                hello.java                                                          [1;131H(B[m[46d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[46;113H(B[0;7mM-A(B[m Mark Text[47d(B[0;7m^X(B[m Exit[47;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[47;113H(B[0;7mM-6(B[m Copy Text[45d[3d[39;49m(B[m[?12l[?25h[?25l[45d[J[47;132H[?12l[?25h[47;1H[?1049l[23;0;0t[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ nano Hello.java
+[?1049h[22;0;0t[1;47r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[45;59H(B[0;7m[ Reading File ](B[m[45;65H(B[0;7m 7 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                                Hello.java                                                          [1;131H(B[m[46d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[46;113H(B[0;7mM-A(B[m Mark Text[47d(B[0;7m^X(B[m Exit[47;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[47;113H(B[0;7mM-6(B[m Copy Text[45d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;5HSystem.out.println([31m"Hello, world!"[39m(B[m);[8;3H}[9d}[3d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25lem.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l[45d[K[7;21H[?12l[?25h[?25ll[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[1;123H(B[0;7mModified(B[m[7;24H"Hello, world!);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25ll);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25la);[?12l[?25h[?25lr);[?12l[?25h[?25lg);[?12l[?25h[?25ls);[?12l[?25h[?25l[1;131H[1;123H(B[0;7m        (B[m[45;58H(B[0;7m[ Wrote 7 lines ](B[m[7;28H[?12l[?25h[?25l[45d[J[47;132H[?12l[?25h[47;1H[?1049l[23;0;0t[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ cdcsci241/lab-1-grdavies99/
+bash: cdcsci241/lab-1-grdavies99/: No such file or directory
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ cdcsci241/lab-1-grdavies99/ sci241/lab-1-grdavies99/[1Psci241/lab-1-grdavies99/ csci241/lab-1-grdavies99/
+bash: cd: csci241/lab-1-grdavies99/: No such file or directory
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ cd
+daviesg3@cf405-24:~$ cd csci241/lab-1-grdavies99/[K
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ gradle build
+
+
+[2A[1m<[0;1m-------------> 0% EXECUTING [60ms][m[35D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 21% EXECUTING [160ms][m[37D[1B[1m> :jar[m[0K[6D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [260ms][m[37D[1B[1m> :distZip[m[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [360ms][m[37D[2B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 869ms
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ gradle run
+
+
+[2A[1m<[0;1m-------------> 0% EXECUTING [59ms][m[35D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[2A[0K
+[1m> Task :run[m[0K
+[Ljava.lang.String;@4dc63996
+
+[32;1mBUILD SUCCESSFUL[0;39m in 466ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava > Resolve files of :compileClasspath[m[51D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ grdale run --args=""H"e"l"l"o" "2"4"1"
+
+Command 'grdale' not found, did you mean:
+
+  command 'gradle' from deb gradle
+
+Try: apt install <deb name>
+
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ grdale run --args="Hello 241"[C[C[1P[1@a
+
+
+[2A[1m<[0;1m-------------> 0% EXECUTING [57ms][m[35D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2A[0K
+[1m> Task :run[m[0K
+[Ljava.lang.String;@4dc63996
+
+[32;1mBUILD SUCCESSFUL[0;39m in 461ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ gradle run --args="Hello 241"da[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadle run[Kbuildcd csci241/lab-1-grdavies99[K csci241/lab-1-grdavies99/[1Pcsci241/lab-1-grdavies99/[12Pnano Hello.javahello.javacd src/main/java/lab1/
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ nano Hello.java
+[?1049h[22;0;0t[1;47r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[45;59H(B[0;7m[ Reading File ](B[m[45;65H(B[0;7m 7 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                                Hello.java                                                          [1;131H(B[m[46d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[46;113H(B[0;7mM-A(B[m Mark Text[47d(B[0;7m^X(B[m Exit[47;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[47;113H(B[0;7mM-6(B[m Copy Text[45d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;5HSystem.out.println(args);[8;3H}[9d}[3d[?12l[?25h[?25l[?12l[?25h[?25l[1;123H(B[0;7mModified(B[m[3dHpackage lab1;H[?12l[?25h[?25lepackage lab1;He[?12l[?25h[?25llpackage lab1;Hel[?12l[?25h[?25lllpackage lab1;[5G[?12l[?25h[?25lopackage lab1;[6G[?12l[?25h[?25l[1P[?12l[?25h[?25l[1Pl[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[36mpackage[39m(B[m[1P[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l[45d[K[7;12H[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ll[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l"args);[25G[?12l[?25h[?25lhargs);[26G[?12l[?25h[?25leargs);[27G[?12l[?25h[?25llargs);[28G[?12l[?25h[?25lllargs);[29G[?12l[?25h[?25loargs);[30G[?12l[?25h[?25l[24G[31m"hello"[39m(B[margs);[31G[?12l[?25h[?25l args);[32G[?12l[?25h[?25l+args);[33G[?12l[?25h[?25l args);[34G[?12l[?25h[?25l  args);[35G[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[1P[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[C[?12l[?25h[?25l[31m "[39m(B[m + args);[7;31H[?12l[?25h[?25l[8;4H[?12l[?25h[?25l[7;31H[?12l[?25h[?25l[31m,"[39m(B[m + args);[7;32H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1P[?12l[?25h[?25l[31mHello ,"[39m(B[m + args);[7;26H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l7[7;45r8M[1;47r[7;1H[42m    [8d[49m(B[m[4P[?12l[?25h[?25l[8G[1K System.out.println([31m"Hello ,"[39m(B[m + args);[8;9H[?12l[?25h[?25l[A[?12l[?25h[?25l    f[?12l[?25h[?25lo[?12l[?25h[?25l[31mfor[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l s[?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l ([?12l[?25h[?25lS[?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l a[?12l[?25h[?25l:[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l a[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l)[?12l[?25h[?25l([?12l[?25h[?25l [?12l[?25h[?25l{[?12l[?25h[?25l[8d[?12l[?25h[?25l[8;9H[?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ll[?12l[?25h[?25ln[?12l[?25h[?25l[29G[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l+[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[?25l}[?12l[?25h[?25l[?12l[?25h[?25l7[9;45r8[9dM[1;47r[8;43H [9d}[?12l[?25h[?25l[8G[1K }[?12l[?25h[?25l[1;131H[1;123H(B[0;7m        (B[m[45;58H(B[0;7m[ Wrote 9 lines ](B[m[9;9H[?12l[?25h[?25l[45d[J[47;132H[?12l[?25h[47;1H[?1049l[23;0;0t[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ cd
+daviesg3@cf405-24:~$ cdnano Hello.javacd src/main/java/lab1/gradle run --args="Hello 241"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cda[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadle run[Kbuildcd csci241/lab-1-grdavies99
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ gradle build
+
+
+[2A[1m<[0;1m-------------> 0% EXECUTING [58ms][m[35D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [158ms][m[37D[1B[1m> :distTar[m[0K[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [258ms][m[37D[1B[1m> :distZip[m[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 758ms
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ gradle run --args=""2"4"1"
+
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [57ms][m[36D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello ,241
+
+[32;1mBUILD SUCCESSFUL[0;39m in 459ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdaviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add [K[K[K[K[K[K[K[Kcd [K[K[Kgradle run --args="241"build[Kcd csci241/lab-1-grdavies99[Knano Hello.javacd src/main/java/lab1/
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ cd src/main/java/lab1/gradle run --args="241"build[Kcd csci241/lab-1-grdavies99[Knano Hello.java
+[?1049h[22;0;0t[1;47r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[45;59H(B[0;7m[ Reading File ](B[m[45;65H(B[0;7m 9 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                                Hello.java                                                          [1;131H(B[m[46d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[46;113H(B[0;7mM-A(B[m Mark Text[47d(B[0;7m^X(B[m Exit[47;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[47;113H(B[0;7mM-6(B[m Copy Text[45d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;5H[31mfor[39m(B[m (String a: args){[8;9HSystem.out.println([31m"Hello ,"[39m(B[m + a);[9;9H}[10;3H}[11d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[8;9H[?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ll[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l[45d[K[8;29H[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[1;123H(B[0;7mModified(B[m[8;34H[1P[?12l[?25h[?25l[C[?12l[?25h[?25l[31m "[39m(B[m + a);[36G[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l+[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25l );[?12l[?25h[?25l");[?12l[?25h[?25l[?12l[?25h[?25l+");[?12l[?25h[?25l"[?12l[?25h[?25l!);[?12l[?25h[?25l[31m"!"[39m(B[m);[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l [31m"!"[39m(B[m);[44G[?12l[?25h[?25l[1;131H[1;123H(B[0;7m        (B[m[45;58H(B[0;7m[ Wrote 9 lines ](B[m[8;44H[?12l[?25h[?25l[45d[J[47;132H[?12l[?25h[47;1H[?1049l[23;0;0t[?1l>daviesg3@cf405-24:~/csci241/lab-1-grdavies99/src/main/java/lab1$ cd
+daviesg3@cf405-24:~$ cdnano Hello.javacd src/main/java/lab1/gradle run --args="241"build[Kcd csci241/lab-1-grdavies99[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Knano Hello.javacd[K csci241/lab-1-grdavies99
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git add[K[K[Kcomit[K[Kmit -m "syncind[Kg all my files"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	[31mmodified:   src/main/java/lab1/Hello.java[m
+
+Untracked files:
+	[31m.gradle/[m
+	[31mbuild/[m
+
+no changes added to commit
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git aDD[K[Kdd src/main/java/lab1/Hello.java
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git commit -m "hello now prints vom[K[K[Kcommand line argument"
+[master c72a037] hello now prints command line argument
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ git push
+Username for 'https://github.com': grdavies99
+Password for 'https://grdavies99@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 575 bytes | 143.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-grdavies99
+   8c94cb2..c72a037  master -> master
+daviesg3@cf405-24:~/csci241/lab-1-grdavies99$ exit
+exit
+
+Script done on 2020-04-12 14:31:46-0700
